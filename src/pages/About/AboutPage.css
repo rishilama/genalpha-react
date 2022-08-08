@@ -1,0 +1,67 @@
+.about__bg{
+    background-color: rgb(255, 215, 229);
+    padding-bottom: 80px;
+}
+
+.about__heading, .about__heading-moto{
+    font-size: 32px;
+}
+.about__heading{
+    padding-top: 160px;
+}
+
+.about-content{
+    padding: 30px 0px 80px;
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media(max-width:999px){
+    .about-content{
+        grid-template-columns: 100%;
+    }
+    .about__video-container{
+        padding-top: 25px;
+    }
+    .about__text-container{
+        padding-top: 20px;
+    }
+}
+
+
+.book-container{
+    padding: 30px 15px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    -webkit-box-shadow: 18px 18px 27px 4px rgba(99, 99, 99, 0.25); 
+    box-shadow: 18px 18px 27px 4px rgba(99, 99, 99, 0.25);
+}
+
+
+.booking-para{
+    margin: 15px 0 25px;
+    text-align: center;
+}
+
+.mailto{
+    color: rgb(228, 51, 113);
+    font-weight: 500;
+}
+
+
+.booking-free-trial_btn{
+    background-color: rgb(228, 51, 113);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
