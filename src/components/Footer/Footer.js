@@ -37,7 +37,7 @@ function Footer() {
                         <li className="footer__link-item"><p className="footer__link-item__links">Tel: +919153278835</p>
                         </li>
                         <li className="footer__link-item">
-                            <Link to="mailto:genalphatutoring@gmail.com" className="footer__link-item__links">genalphatutoring@gmail.com</Link></li>
+                            <a href="mailto:genalphatutoring@gmail.com" className="footer__link-item__links">genalphatutoring@gmail.com</a></li>
                     </ul>
                     <h3 className="column-heading">
                         Location
@@ -53,8 +53,8 @@ function Footer() {
                     </h3>
                     <ul className="social-icons">
                         <li className="small-social-icon"><Link to="/"><i className="fa fa-facebook-official" aria-hidden="true"></i></Link></li>
-                        <li className="small-social-icon"><Link to="https://wa.me/919153278835"><i className="fa fa-whatsapp" aria-hidden="true"></i></Link></li>
-                        <li className="small-social-icon"><Link to="mailto:genalphatutoring@gmail.com"><i className="fa fa-envelope" aria-hidden="true"></i></Link></li>
+                        <li className="small-social-icon"><a href="https://wa.me/919153278835"><i className="fa fa-whatsapp" aria-hidden="true"></i> </a></li>
+                        <li className="small-social-icon"><a href="mailto:genalphatutoring@gmail.com"><i className="fa fa-envelope" aria-hidden="true"></i> </a></li>
                         <li className="small-social-icon"><Link to="/"><i className="fa fa-youtube" aria-hidden="true"></i></Link></li>
                         <li className="small-social-icon"><Link to="/"><i className="fa fa-instagram" aria-hidden="true"></i></Link></li>
 
