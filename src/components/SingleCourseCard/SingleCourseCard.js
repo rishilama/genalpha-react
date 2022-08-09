@@ -4,7 +4,7 @@ function SingleCourseCard( {image, name} ) {
     return (
         <div className="course__container">
             <img src={image} alt="course-img" className="course-image" />
-            <a href="/home.html" className="course__link">
+            <a href="/courses/:id" className="course__link">
 
                 <div className="course__name-container">
                     <p className="course__name">{name}</p>

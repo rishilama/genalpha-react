@@ -9,6 +9,9 @@ import CoursesPage from "./pages/Courses/CoursesPage";
 import { SidebarVisibilityContextProvider } from './store/SidebarVisibilityContext';
 import SecondaryFooter from "./components/SecondaryFooter/SecondaryFooter";
 
+
+import singleCoursePage from "./components/singleCoursePage/singleCoursePage";
+
 function App() {
 
   return (
@@ -21,6 +24,7 @@ function App() {
           <Route path='/' exact element={<Homepage />} />
           <Route path='/about' element={<AboutPage />} />
           <Route path='/courses' element={<CoursesPage />} />
+          <Route path='/courses/:id' element={<singleCoursePage />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
         <Footer />

@@ -56,16 +56,16 @@ function ContactDetialsAndForm() {
                     <div className='right right__contact-section'>
                         <form className="contact__form" onSubmit={sendEmail}>
                                 
-                            <label for="lname">Your name *</label>
+                            <label htmlFor="lname">Your name *</label>
                             <input type="text" name='name' placeholder="Name" required className="contact__form-text" />
                             
-                            <label for="lname">Your email *</label>
+                            <label htmlFor="lname">Your email *</label>
                             <input type="email" name='email' placeholder="Email" required className="contact__form-text" />
                             
-                            <label for="lname">Your Whatsapp number *</label>
+                            <label htmlFor="lname">Your Whatsapp number *</label>
                             <input type="text" name='whatsappnumber' placeholder="Whatsapp Number" required className="contact__form-text" />
                             
-                            <label for="lname">Your Query *</label>
+                            <label htmlFor="lname">Your Query *</label>
                             <textarea  rows="8" name='message' placeholder="Message" required className="contact__form-text"></textarea>
                             <div className="contact-btn">
                                 <input type="submit" className="button contact-button" name="Submit" />
