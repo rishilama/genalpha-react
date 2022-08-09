@@ -8,7 +8,7 @@ function Footer() {
         <div className="container">
             <div className="footer-content">
                 <div className="column-1">
-                    <Link to="/"><img src="./img/Logo3.png" alt="site-logo" className="logo footer-logo" /></Link>
+                    <Link to="/"><img src="/img/Logo3.png" alt="logo" className="logo footer-logo" /></Link>
                  
                 </div>
                 <div className="column-2">

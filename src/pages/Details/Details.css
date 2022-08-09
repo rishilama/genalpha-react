@@ -1,0 +1,155 @@
+.single-course__page-content{
+    margin-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(255, 215, 229);
+}
+
+.single__course-name{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.first-half{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+    align-items: center;
+    gap: 20px 0;
+}
+
+.single__course-img{
+    width: 95%;
+    border-radius: 10px;
+}
+
+.right-side__first-half .single__course-btn{
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: rgb(228, 51, 113);
+    color: white;
+    word-wrap: break-word;
+    font-size: 15px;
+}
+
+.right-side__first-half .single__course-eligibility{
+    margin: 25px 0px;
+    font-size: 15px;
+}
+
+.right-side__first-half .single__course-duration{
+    font-size: 15px;
+}
+
+.second-half{
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+    gap: 0px 60px;
+}
+
+.second-half__more-images{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.second-half__more-images:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.right-side__second-half{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.couse-details__subhead{
+    font-size: 17px;
+}
+
+.couse-details__para{
+    font-size: 14px;
+}
+
+.book-container{
+    padding: 30px 15px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    -webkit-box-shadow: 18px 18px 27px 4px rgba(99, 99, 99, 0.25); 
+    box-shadow: 18px 18px 27px 4px rgba(99, 99, 99, 0.25);
+}
+
+.booking-para{
+    margin: 15px 0 25px;
+    text-align: center;
+}
+
+.mailto{
+    color: rgb(228, 51, 113);
+    font-weight: 500;
+
+    word-wrap: break-word;
+}
+
+
+.booking-free-trial_btn{
+    background-color: rgb(228, 51, 113);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+@media(max-width:999px){
+    .second-half{
+        grid-template-columns: 100%;
+    }
+    
+    .right-side__second-half{
+        padding: 50px 0;
+    }
+}
+
+@media(max-width:700px){
+    .first-half{
+        grid-template-columns: 100%;
+    }
+    .right-side__first-half{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .single__course-duration{
+        text-align: center;
+    }
+}
+
+@media(max-width:300px){
+    .right-side__first-half .single__course-btn{
+        padding: 12px 20px;
+    }
+    .book-container .booking-head{
+        text-align: center;
+    }
+}
+
+@media(max-width:260px){
+    .right-side__first-half .single__course-btn{
+        padding: 12px 10px;
+    }
+}
+
+@media(max-width:250px){
+    .right-side__first-half .single__course-btn{
+        padding: 12px 10px;
+        font-size: 13px;
+    }
+}
