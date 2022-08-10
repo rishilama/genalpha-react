@@ -1,1 +1,4 @@
 https://genlpha-courses-api-project.herokuapp.com/courses
+
+
+==>To install all dependencies - npm install
