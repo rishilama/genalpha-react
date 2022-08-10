@@ -88,16 +88,22 @@
     box-shadow: 18px 18px 27px 4px rgba(99, 99, 99, 0.25);
 }
 
+.booking-head{
+    text-align: center;
+}
+
 .booking-para{
     margin: 15px 0 25px;
     text-align: center;
 }
 
+.booking-para a{
+    word-wrap: break-word;
+}
+
 .mailto{
     color: rgb(228, 51, 113);
     font-weight: 500;
-
-    word-wrap: break-word;
 }
 
 
@@ -136,9 +142,6 @@
     .right-side__first-half .single__course-btn{
         padding: 12px 20px;
     }
-    .book-container .booking-head{
-        text-align: center;
-    }
 }
 
 @media(max-width:260px){
@@ -152,4 +155,14 @@
         padding: 12px 10px;
         font-size: 13px;
     }
+}
+
+.loading{
+    margin-top: 80px;
+}
+
+.left-side__first-half{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

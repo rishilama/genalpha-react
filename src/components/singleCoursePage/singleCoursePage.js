@@ -6,7 +6,6 @@ function SingleCoursePage() {
 
     const params = useParams();
     const {id} = params;
-    console.log(id);
 
     const [courses, setCourses] = useState({});
 
@@ -41,7 +40,7 @@ function SingleCoursePage() {
                 </>
             }
 
-            {!courses.id && <p>Something went wrong....</p>}
+            {!courses.id && <p className='loading'>Please wait Loading the details...</p>}
         </>
     )
 }
