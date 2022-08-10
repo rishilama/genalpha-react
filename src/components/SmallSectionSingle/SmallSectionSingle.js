@@ -6,7 +6,7 @@ function SmallSectionSingle( {cname, image, heading, buttonContent} ) {
         </div>
         <div className="section-right">
             <p className="section-right__content">{heading}</p>
-            <a href="/" className="button">{buttonContent}</a>
+            <a href="https://forms.gle/2Jq74yvXKfAjbvJYA" className="button">{buttonContent}</a>
         </div>
     </div>
   );

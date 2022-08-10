@@ -8,7 +8,7 @@ function FreeTrialSection() {
 
         <div className="free-trail-section__content">
             <h1 className="free-trail-section__head free-head">Book a Free Trial</h1>
-            <a href="/" className="free-trial__button button">Book Now</a>
+            <a href="https://forms.gle/2Jq74yvXKfAjbvJYA" className="free-trial__button button">Book Now</a>
             <hr className="rule" />
 
 

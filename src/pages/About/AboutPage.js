@@ -1,5 +1,5 @@
 import AboutContent from '../../components/AboutContent/AboutContent';
-import AboutFreeTrial from '../../components/AboutFreeTrial/AboutFreeTrial';
+import BookingSection from '../../components/BookingSection/BookingSection';
 import './AboutPage.css';
 
 function AboutPage() {
@@ -9,7 +9,7 @@ function AboutPage() {
 
                 <AboutContent />
 
-                <AboutFreeTrial />
+                <BookingSection />
 
             </div>
         </div>
