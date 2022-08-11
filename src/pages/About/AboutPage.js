@@ -1,5 +1,6 @@
 import AboutContent from '../../components/AboutContent/AboutContent';
 import BookingSection from '../../components/BookingSection/BookingSection';
+import FixedWhatsappComp from '../../components/FixedWhatsappComp/FixedWhatsappComp';
 import './AboutPage.css';
 
 function AboutPage() {
@@ -10,6 +11,8 @@ function AboutPage() {
                 <AboutContent />
 
                 <BookingSection />
+
+                <FixedWhatsappComp />
 
             </div>
         </div>

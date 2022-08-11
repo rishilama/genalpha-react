@@ -1,0 +1,37 @@
+.fixedWhatsapp{
+    position: fixed;
+    bottom: 20px;
+    left: 60px;
+}
+
+@media(max-width:768px){
+    .fixedWhatsapp{
+        left:50px;
+    }
+}
+
+@media(max-width:500px){
+    .fixedWhatsapp{
+        left:40px;
+    }
+}
+
+@media(max-width:500px){
+    .fixedWhatsapp{
+        left:20px;
+    }
+}
+
+.fixedWhatsappImg{
+    width: 60px;
+    height: 60px;
+
+    animation: bounce 1s infinite;
+ }
+
+@keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-50px);} 
+    60% {transform: translateY(-25px);} 
+}
+ 

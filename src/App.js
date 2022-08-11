@@ -9,6 +9,7 @@ import CoursesPage from "./pages/Courses/CoursesPage";
 import Details from "./pages/Details/Details";
 import { SidebarVisibilityContextProvider } from './store/SidebarVisibilityContext';
 import SecondaryFooter from "./components/SecondaryFooter/SecondaryFooter";
+import NotFoundError from "./pages/NotFoundError/NotFoundError";
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path='/courses' element={<CoursesPage />} />
           <Route path='/courses/:id' element={<Details />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/*' element={<NotFoundError />} />
         </Routes>
         <Footer />
         <SecondaryFooter />

@@ -6,6 +6,7 @@ import ProfitSection from '../../components/ProfitSection/ProfitSection'
 import SmallSection from '../../components/SmallSection/SmallSection'
 import SmallSectionData from '../../dummy data/SmallSectionData';
 import PerksData from '../../dummy data/PerksData';
+import FixedWhatsappComp from '../../components/FixedWhatsappComp/FixedWhatsappComp';
 
 function Homepage() {
   return (
@@ -14,6 +15,7 @@ function Homepage() {
         <SmallSection sectionData={SmallSectionData} />
         <ProfitSection profitData={PerksData} />
         <FreeTrialSection />
+        <FixedWhatsappComp />
     </div>
   )
 }

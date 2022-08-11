@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player';
 function AboutVideo() {
 
     return (
-        <ReactPlayer url='video/for website.mp4' controls width='95%' height='auto' loop='true' volume='0.02' playing='true' />
+        <ReactPlayer url='video/for website.mp4' controls width='95%' height='auto' loop={true} volume={0.02} playing={true} />
     )
 }
 

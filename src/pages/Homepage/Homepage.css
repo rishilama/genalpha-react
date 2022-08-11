@@ -771,17 +771,18 @@
   
   .footer-content{
     display: grid;
-    justify-content: space-between;
     align-items: center;   
+    justify-content: center;
     grid-template-columns: 100%;
     grid-template-rows: repeat(4, auto);
     gap: 30px;
   }
   
-  @media(min-width:600px){
+  @media(min-width:500px){
     .footer-content{   
         grid-template-columns: repeat(2, 50%);
         gap: 20px 70px;
+        justify-content: space-between;
     }
   }
   
@@ -846,10 +847,7 @@
   .footer-link{
     justify-content: space-between;
   }
-  
-  .social-icons{
-    justify-content: space-around;
-  }
+
   
   .secondaryFooter{
     text-align:  center;
