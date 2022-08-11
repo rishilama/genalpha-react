@@ -14,9 +14,9 @@
     padding: 50px 0;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px 0;
+    gap: 20px;
 }
 
 .single__course-img{
