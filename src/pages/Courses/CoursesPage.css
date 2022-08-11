@@ -7,12 +7,8 @@
     background-size: cover;
 }
 
-.hero-content{
-    
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
+.courses__hero-content{
+    padding-top: 150px;
 }
 
 @media(min-width:500px) {
@@ -21,9 +17,9 @@
         height: 45vh;
         background-image:  linear-gradient(to right bottom, var(--primary), var(--middle), var(--secondary)), url(../../../public/img/pexels-julia-m-cameron-4145153\ large.jpg);
     }    
-    /* .hero-content{
+    .courses__hero-content{
         padding-top: 155px;
-    } */
+    }
 }
 @media(min-width:600px) {
     .bg-image__courses{
@@ -31,9 +27,9 @@
         height: 50vh;
         background-image:  linear-gradient(to right bottom, var(--primary), var(--middle), var(--secondary)), url(../../../public/img/pexels-julia-m-cameron-4145153\ large.jpg);
     }
-    /* .hero-content{
+    .courses__hero-content{
         padding-top: 170px;
-    } */
+    }
 }
 @media(min-width:768px) {
     .bg-image__courses{
@@ -41,9 +37,9 @@
         height: 60vh;
         background-image:  linear-gradient(to right bottom, var(--primary), var(--middle), var(--secondary)), url(../../../public/img/pexels-julia-m-cameron-4145153\ large.jpg);
     }
-    /* .hero-content{
+    .courses__hero-content{
         padding-top: 200px;
-    } */
+    }
 }
 
 .courses-background__color{

@@ -5,7 +5,7 @@ function CoursesHero() {
     return (
         <div className="bg-image__courses">
             <div className="container">
-                <div className="hero-content">
+                <div className="hero-content courses__hero-content">
                     <p className="imp">Courses</p>
                 </div>
             </div>
