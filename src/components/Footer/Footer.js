@@ -51,7 +51,7 @@ function Footer() {
                         Keep in touch
                     </h3>
                     <ul className="social-icons">
-                        <li className="small-social-icon"><Link to="/"><i className="fa fa-facebook-official" aria-hidden="true"></i></Link></li>
+                        <li className="small-social-icon"><a href="https://www.facebook.com/genalphaonlinehere"><i className="fa fa-facebook-official" aria-hidden="true"></i></a></li>
                         <li className="small-social-icon"><a href="https://wa.me/919153278835"><i className="fa fa-whatsapp" aria-hidden="true"></i> </a></li>
                         <li className="small-social-icon"><a href="mailto:genalphatutoring@gmail.com"><i className="fa fa-envelope" aria-hidden="true"></i> </a></li>
                         <li className="small-social-icon"><Link to="/"><i className="fa fa-youtube" aria-hidden="true"></i></Link></li>
