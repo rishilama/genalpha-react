@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {useParams} from 'react-router-dom'
 import CoursesDetailComp from '../CoursesDetailComp/CoursesDetailComp';
 
-function SingleCoursePage() {
+function SingleCourseDetail() {
 
     const params = useParams();
     const {id} = params;
@@ -45,4 +45,4 @@ function SingleCoursePage() {
     )
 }
 
-export default SingleCoursePage
+export default SingleCourseDetail
