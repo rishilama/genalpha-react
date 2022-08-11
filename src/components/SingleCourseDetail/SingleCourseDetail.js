@@ -40,7 +40,11 @@ function SingleCourseDetail() {
                 </>
             }
 
-            {!courses.id && <p className='loading'>Please wait Loading the details...</p>}
+            {!courses.id && 
+                <div className='container'>
+                    <p className='loading'>Please wait while we are fetching the details...</p>
+                </div>
+            }
         </>
     )
 }
