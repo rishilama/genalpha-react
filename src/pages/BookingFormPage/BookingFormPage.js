@@ -9,10 +9,10 @@ function BookingFormPage() {
 
     const PageDisplay = () => {
         if (page===0) {
-            return <OldStudent />
+            return <NewStudent />
         }
         else{
-            return <NewStudent />
+            return <OldStudent />
         }
     }
 
@@ -26,14 +26,14 @@ function BookingFormPage() {
                             <button className='booking-form__button'
                                 // disabled = {page === 0} 
                                 onClick={() => {
-                                    setPage(1);
+                                    setPage(0);
                                 }}>
                                 New Student
                             </button>
                             <button className='booking-form__button'
                                 // disabled = {page === 1} 
                                 onClick={() => {
-                                    setPage(0);
+                                    setPage(1);
                                 }}>
                                 Returning Student
                             </button>
