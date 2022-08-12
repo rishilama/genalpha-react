@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function FreeTrialSection() {
   return (
@@ -8,7 +9,7 @@ function FreeTrialSection() {
 
         <div className="free-trail-section__content">
             <h1 className="free-trail-section__head free-head">Book a Free Trial</h1>
-            <a href="https://forms.gle/2Jq74yvXKfAjbvJYA" className="free-trial__button button">Book Now</a>
+            <Link to="/book-a-class" onClick={()=> window.scrollTo({ top: 0, left: 0})} className="free-trial__button button">Book Now</Link>
             <hr className="rule" />
 
 

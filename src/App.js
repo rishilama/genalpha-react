@@ -10,6 +10,7 @@ import Details from "./pages/Details/Details";
 import { SidebarVisibilityContextProvider } from './store/SidebarVisibilityContext';
 import SecondaryFooter from "./components/SecondaryFooter/SecondaryFooter";
 import NotFoundError from "./pages/NotFoundError/NotFoundError";
+import BookingFormPage from "./pages/BookingFormPage/BookingFormPage";
 
 
 
@@ -27,6 +28,7 @@ function App() {
           <Route path='/courses' element={<CoursesPage />} />
           <Route path='/courses/:id' element={<Details />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/book-a-class' element={<BookingFormPage />} />
           <Route path='/*' element={<NotFoundError />} />
         </Routes>
         <Footer />

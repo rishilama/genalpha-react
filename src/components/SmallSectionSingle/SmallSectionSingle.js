@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function SmallSectionSingle( {cname, image, heading, buttonContent} ) {
   return (
     <div className={`section ${cname}`}>
@@ -6,7 +8,7 @@ function SmallSectionSingle( {cname, image, heading, buttonContent} ) {
         </div>
         <div className="section-right">
             <p className="section-right__content">{heading}</p>
-            <a href="https://forms.gle/2Jq74yvXKfAjbvJYA" className="button">{buttonContent}</a>
+            <Link to="/book-a-class" className="button" onClick={()=> window.scrollTo({ top: 0, left: 0})}>{buttonContent}</Link>
         </div>
     </div>
   );

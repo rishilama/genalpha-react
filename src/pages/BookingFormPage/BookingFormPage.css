@@ -1,0 +1,133 @@
+.booking-form__bg-color{
+    background: linear-gradient(to bottom right, rgba(229, 33, 101, 0.7), rgb(255, 215, 229));
+}
+
+.margin-top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.booking-form{
+    margin: 200px 0 150px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@media(min-width:500px){
+    .booking-form{
+        margin-left: -60px;
+    }
+}
+
+.booking-form-page__btn{
+    display: flex;
+
+    justify-content: flex-start;
+}
+
+
+button{
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 215, 229);
+    color: black;
+
+    font-weight: bolder;
+}
+
+button:first-child{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 5px;
+}
+
+button:last-child{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 5px;
+}
+
+.book__form{
+    background-color: black;
+    padding: 10px 50px 50px;
+    width: 150%;
+
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.book__form label{
+    color: white;
+}
+
+.book__form input{
+    background-color: black;
+    border: 1px solid darkgray;
+    width: 100%;
+}
+
+@media(max-width:500px){
+    .book__form{
+        width: 120%;
+    }
+}
+
+@media(max-width:400px){
+    .book__form{
+        padding: 10px 20px;
+        width: 140%;
+    }
+}
+
+@media(max-width:350px){
+    .book__form{
+        width: 120%;
+    }
+}
+
+@media(max-width:310px){
+    .book__form{
+        width: 105%;
+    }
+}
+
+@media(min-width:700px){
+    .booking-form{
+        margin-left: -200px;
+    }
+    .book__form{
+        width: 165%;
+    }
+}
+
+.new-student__text{
+    width: 165%;
+    padding: 20px 50px 10px;
+    color: rgb(255, 215, 229);
+    background-color: black;
+
+    border-top-right-radius: 8px;
+}
+
+.booking-form__btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.book__form .booking-form__btn .booking-form__button{
+    background: rgba(229, 33, 101, 0.7);
+    /* background: linear-gradient(to bottom right, rgba(229, 33, 101, 0.7), rgb(255, 215, 229)); */
+
+    border: none;
+    color: white;
+
+    width: 50%;
+    cursor: pointer;
+}
