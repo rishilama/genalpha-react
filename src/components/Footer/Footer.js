@@ -21,7 +21,7 @@ function Footer() {
                                 <li className="footer__link-item"><Link to="/courses" className="footer__link-item__links" onClick={() => {window.scrollTo({ top: 0, left: 0})}}>Courses</Link></li>
                                 <li className="footer__link-item"><Link to="/faq" className="footer__link-item__links" onClick={() => {window.scrollTo({ top: 0, left: 0})}}>FAQ</Link></li>
                                 <li className="footer__link-item"><Link to="/tac" className="footer__link-item__links" onClick={() => {window.scrollTo({ top: 0, left: 0})}}>Terms & Conditions</Link></li>    
-                            
+                                <li className="footer__link-item"><Link to="/book-a-class" onClick={()=> window.scrollTo({ top: 0, left: 0})} className="footer__link-item__links">Book now</Link></li>    
                                 <li className="footer__link-item"><Link to="/about" className="footer__link-item__links" onClick={() => {window.scrollTo({ top: 0, left: 0})}}>About Us</Link></li>
                                 <li className="footer__link-item"><Link to="/contact" className="footer__link-item__links" onClick={() => {window.scrollTo({ top: 0, left: 0})}}>Contact</Link></li>
                             </div>    
