@@ -96,10 +96,14 @@ button:last-child{
 }
 
 @media(max-width:450px){
+    button{
+        padding: 10px 15px;
+    }
     .book__form{
         padding: 10px 20px 50px;
     }
     .new-student__text{
         padding: 20px 20px 10px;
+        border-top-right-radius: 0px;
     }
 }
