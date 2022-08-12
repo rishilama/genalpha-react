@@ -25,10 +25,11 @@
         grid-template-columns: 100%;
     }
     .about__video-container{
-        padding-top: 25px;
+        margin-top: 40px;
     }
     .about__text-container{
-        padding-top: 20px;
+        grid-row:1/2;
+        margin-top: 20px;
     }
 }
 
