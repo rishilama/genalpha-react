@@ -17,11 +17,6 @@
     justify-content: center;
 }
 
-@media(min-width:500px){
-    .booking-form{
-        margin-left: -60px;
-    }
-}
 
 .booking-form-page__btn{
     display: flex;
@@ -54,7 +49,7 @@ button:last-child{
 .book__form{
     background-color: black;
     padding: 10px 50px 50px;
-    width: 150%;
+    width: 100%;
 
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -71,47 +66,16 @@ button:last-child{
     width: 100%;
 }
 
-@media(max-width:500px){
-    .book__form{
-        width: 120%;
-    }
-}
-
-@media(max-width:400px){
-    .book__form{
-        padding: 10px 20px;
-        width: 140%;
-    }
-}
-
-@media(max-width:350px){
-    .book__form{
-        width: 120%;
-    }
-}
-
-@media(max-width:310px){
-    .book__form{
-        width: 105%;
-    }
-}
-
-@media(min-width:700px){
-    .booking-form{
-        margin-left: -200px;
-    }
-    .book__form{
-        width: 165%;
-    }
-}
 
 .new-student__text{
-    width: 165%;
+    width: 100%;
     padding: 20px 50px 10px;
     color: rgb(255, 215, 229);
     background-color: black;
 
     border-top-right-radius: 8px;
+
+    word-wrap: break-word;    
 }
 
 .booking-form__btn{
@@ -123,11 +87,19 @@ button:last-child{
 
 .book__form .booking-form__btn .booking-form__button{
     background: rgba(229, 33, 101, 0.7);
-    /* background: linear-gradient(to bottom right, rgba(229, 33, 101, 0.7), rgb(255, 215, 229)); */
 
     border: none;
     color: white;
 
     width: 50%;
     cursor: pointer;
+}
+
+@media(max-width:450px){
+    .book__form{
+        padding: 10px 20px 50px;
+    }
+    .new-student__text{
+        padding: 20px 20px 10px;
+    }
 }

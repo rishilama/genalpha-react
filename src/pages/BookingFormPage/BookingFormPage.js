@@ -24,14 +24,12 @@ function BookingFormPage() {
                     <div className='booking-form'>
                         <div className='booking-form-page__btn'>
                             <button className='booking-form__button'
-                                // disabled = {page === 0} 
                                 onClick={() => {
                                     setPage(0);
                                 }}>
                                 New Student
                             </button>
                             <button className='booking-form__button'
-                                // disabled = {page === 1} 
                                 onClick={() => {
                                     setPage(1);
                                 }}>
