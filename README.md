@@ -1,0 +1,1 @@
+https://genalpha.netlify.app
