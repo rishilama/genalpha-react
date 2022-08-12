@@ -19,7 +19,7 @@ function OldStudent() {
 
     return (
         <>
-            <p className='new-student__text'>Tell us what you want learn more!</p>
+            <p className='new-student__text'>Love our content? Tell us what you want learn more!</p>
             <form className="book__form" onSubmit={sendEmail}>
                                     
                 <label htmlFor="sname">Student's name *</label><br />

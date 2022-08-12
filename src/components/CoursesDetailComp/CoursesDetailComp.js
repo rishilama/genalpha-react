@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import BookingSection from '../BookingSection/BookingSection'
 
 function CoursesDetailComp({ id, pageHead, sectionHead, images , para }) {
@@ -20,7 +21,7 @@ function CoursesDetailComp({ id, pageHead, sectionHead, images , para }) {
                 </div>
 
                 <div className="right-side__first-half">
-                    <a href="https://forms.gle/2Jq74yvXKfAjbvJYA" className="single__course-btn">Live Online Class</a>
+                    <Link to="/book-a-class" onClick={()=> window.scrollTo({ top: 0, left: 0})} className="single__course-btn">Live Online Class</Link>
                     <p className="single__course-eligibility">Eligibility : Grade 1 - Grade 6</p>
                     <p className="single__course-duration"><b>Duration : </b> Number of session based on requirements</p>
                 </div>
